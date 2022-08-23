@@ -1,0 +1,1018 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.left-arrow{
+    position: absolute;
+    left: 3.82%;
+    right: 94.79%;
+    top: 48.1%;
+    bottom: 47.9%;
+    background: #666262;
+}
+.right-arrow{
+    position: absolute;
+    left: 94.44%;
+    right: 4.17%;
+    top: 48.1%;
+    bottom: 47.9%;
+
+    background: #4d4a4a;
+    }
+.home{
+    position: flex;
+}
+.background-image{
+    height: 100vh;
+    width: max-content;
+    overflow: hidden;
+}
+.home-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+}
+.home-text h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+
+.home-text p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    margin: 25px 0px;
+    color: #FFFFFF;
+
+}
+.home-text  h1 span{
+    font-weight: 900;
+}
+.home-text button{
+    margin:auto 50px;
+}
+button{
+    width: 200px;
+    height: 70px;
+    left: 460px;
+    top: 548px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #000000;
+}
+
+
+.menu{
+    background: #E5E5E5;    
+}
+.style{
+    display: flex;
+}
+
+.black-box{
+    box-sizing: border-box;
+    position: relative;
+    width: 132px;
+    height: 852px;
+    left: 57px;
+    top: 43px;
+    background: #0C0B0B;
+    border-radius: 24px;
+}
+
+.icon1{
+    position: absolute;
+    width: 51px;
+    height: 102px;
+    left: 50.12px;
+    top: 28.65px;
+    font-family:"Baloo Bhai";
+    font-style:normal;
+    font-weight:400;
+    font-size:64px;
+    line-height: 102px;
+    /* identical to box height */
+    color: #F1D5BB;
+}
+.icon2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 20.7%;
+    bottom: 75.3%;
+    background: #504d4d;
+    margin-left: 34.12px;
+}
+.background-box1{
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    left: 0px;
+    top: 250px;
+    background: #F1D5BB;
+}
+.icon3{   
+    position: absolute;
+    left: 7.01%;
+    right: 90.35%;
+    top: 60.3%;
+    bottom: 40.7%;
+    margin-left: 34.12px;
+    background: #b3a9a9;
+}
+.icon3{   
+    
+    position: absolute;
+    left: 7.01%;
+    right: 90.35%;
+    top: 34.3%;
+    bottom: 61.7%;
+    background: #DADADA;
+    margin-left: 34.12px;
+    
+}
+.icon4{   
+    
+    position: absolute;
+    left: 7.59%;
+    right: 90.72%;
+    top: 53.4%;
+    bottom: 48.6%;
+    background: #DADADA;
+    margin-left: 34.12px;
+    height: 14px;
+    width: 14px;
+
+}
+.icon5{   
+    position: absolute;
+    left: 7.36%;
+    right: 90.9%;
+    top: 70.3%;
+    bottom: 27.72%;
+    background: #DADADA;
+    margin-left: 34.12px;
+}
+.icon6{   
+    box-sizing: border-box;
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 85%;
+    bottom: 17%;
+    background: #FFFFFF;
+    margin-left: 34.12px;
+}   
+.slide2{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.slide2 h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+    color: #000000;
+}
+.rec8{
+    
+    width: 306px;
+    height: 5px;
+    left: 230px;
+    top: 95px;
+}
+.food{
+   display: block;
+}
+.food1{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 243px;
+    top: 154px;
+    background: url(food-1.png);
+    border-radius: 2px;
+}
+.food h3{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 290px;
+    top: 437px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food2{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 533px;
+    top: 154px;
+    background: url(food-2.png);
+    border-radius: 2px;
+}
+.food h4{
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 594px;
+    top: 437px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food3{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 823px;
+    top: 154px;
+    background: url(food-3.png);
+    border-radius: 2px;
+}
+.food h5{
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 889px;
+    top: 437px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food4{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 1113px;
+    top: 155px;
+    background: url(food-4.png);
+    border-radius: 2px;
+}
+.food h6{
+    position: absolute;
+    width: 176px;
+    height: 25px;
+    left: 1137px;
+    top: 437px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food5{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 244px;
+    top: 498px;
+    background: url(food-5.png);
+    border-radius: 2px;
+}
+.food h7{
+    position: absolute;
+    width: 161px;
+    height: 25px;
+    left: 278px;
+    top: 781px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food6{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 534px;
+    top: 498px;
+    background: url(food-6.png);
+    border-radius: 2px;
+}
+.food h8{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 587px;
+    top: 781px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food7{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 824px;
+    top: 498px;
+    background: url(food-7.png);
+    border-radius: 2px;
+}
+.food h9{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 874px;
+    top: 781px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.food8{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 1114px;
+    top: 499px;
+    background: url(food-8.png);
+    border-radius: 2px;
+}
+.food h10{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 1192px;
+    top: 781px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.butrec{
+    position: absolute;
+    width: 194px;
+    height: 54px;
+    left: 676px;
+    top: 825px;
+    background: #000000;
+    border-radius: 2px;
+}
+.button2{
+    position: absolute;
+    width: 194px;
+    height: 54px;
+    left: 676px;
+    top: 825px;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+}
+.cart{
+    background: #E5E5E5;   
+}
+.rec8b{
+    width: 104px;
+    height: 5px;
+    left: 243px;
+    top: 106px;
+} 
+.rec19{
+    position: absolute;
+    width: 608px;
+    height: 608px;
+    left: 230px;
+    top: 135px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}   
+.cart1{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 172px;
+    background: url(food-1.png);
+}
+.cart1 h11{
+    position: absolute;
+    width: 162px;
+    height: 31px;
+    left: 110px;
+    top: 2px;
+    font-family:'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+}
+.cart2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 318px;
+    background: url(food-2.png);
+}
+.cart2 h12{
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    left: 110px;
+    top: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+}
+.cart3{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 464px;
+    background: url(food-3.png);
+}
+.cart3 h13{
+    position: absolute;
+    width: 113px;
+    height: 31px;
+    left: 110px;
+    top: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+}
+.cart4{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 610px;
+    background: url(food-5.png);
+}
+.cart4 h14{
+    position: absolute;
+    width: 201px;
+    height: 31px;
+    left: 110px;
+    top: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+}
+.cart1 h11b{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 110px;
+    top: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart1 h11c{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 340px;
+    top: 35px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.cart1 h11d{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 370px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    
+}
+.cart1 h11e{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 410px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart2 h12b{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 110px;
+    top: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart2 h12c{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 340px;
+    top: 35px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.cart2 h12d{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 370px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    
+}
+.cart2 h12e{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 410px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart3 h13b{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 110px;
+    top: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart3 h13c{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 340px;
+    top: 35px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.cart3 h13d{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 370px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    
+}
+.cart3 h13e{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 410px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart4 h14b{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 110px;
+    top: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.cart4 h14c{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 340px;
+    top: 35px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.cart4 h14d{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 370px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+}
+.cart4 h14e{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 410px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+.x1{
+    position: absolute;
+    left: 550.18%;
+    right: 42.43%;
+    top: 40.7%;
+    bottom: 77.3%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.x2{
+    position: absolute;
+    left: 550.18%;
+    right: 42.43%;
+    top: 40.7%;
+    bottom: 77.3%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.x3{
+    position: absolute;
+    left: 550.18%;
+    right: 42.43%;
+    top: 40.7%;
+    bottom: 77.3%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.x4{
+    position: absolute;
+    left: 550.18%;
+    right: 42.43%;
+    top: 40.7%;
+    bottom: 77.3%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.order-box{
+    position: absolute;
+    width: 443px;
+    height: 286px;
+    left: 893px;
+    top: 135px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+.order-box p1{
+    position: absolute;
+    width: 249px;
+    height: 50px;
+    left: 30px;
+    top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.order-box p2{
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    left: 30px;
+    top: 110px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+}
+.order-box p3{
+    position: absolute;
+    width: 97px;
+    height: 38px;
+    left: 200px;
+    top: 110px;
+    font-family: 'Mulish';
+    font-style: normal;      
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+}
+.button3{
+    position: absolute;
+    width: 60px;
+    height: 78px;
+    left: 45px;
+    top: 180px;
+    background: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+   background: black;
+    padding: solid black;
+    border: 0ch;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 23%;
+    width: 70%;
+    outline: none;
+    color: rgb(32, 151, 77);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.button3 input{
+    font-style:normal;
+    background-color:#000000;
+    border: none;
+    font-weight: 200;
+    font-size: 18px;
+    padding:8px;
+    text-align: center;
+    color: azure;
+    width: 70%;
+ }
+ .promo-box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 326px;
+    left: 893px;
+    top: 417px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+ }
+ .promo-box p{
+    position: absolute;
+    width: 227px;
+    height: 50px;
+    left: 36px;
+    top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+ }
+ .promo-box p2{
+    position: absolute;
+    width: 236px;
+    height: 38px;
+    left: 60px;
+    top: 130px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    padding-left: 25px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    width: 330px;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    padding-top: 20px;
+ }
+ .button4{
+    position: absolute;
+    width: 60px;
+    height: 78px;
+    left: 45px;
+    top: 220px;
+    background: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+   background: black;
+    padding: solid black;
+    border: 0ch;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 23%;
+    width: 50%;
+    outline: none;
+    color: rgb(32, 151, 77);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.button4 input{
+    font-style:normal;
+    background-color:#000000;
+    border: none;
+    font-weight: 200;
+    font-size: 18px;
+    padding:8px;
+    text-align: center;
+    color: azure;
+    width: 50%;
+ }
+ .icon4a{
+    position: absolute;
+    left: 7.59%;
+    right: 90.72%;
+    top: 53.4%;
+    bottom: 48.6%;
+    background: #DADADA;
+    margin-left: 34.12px;
+    height: 14px;
+    width: 14px;
+
+ }
+ .background-box2{
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    left: 0px;
+    top: 410px;
+    background: #F1D5BB;
+}
+.icon3b{   
+    position: absolute;
+    left: 7.01%;
+    right: 90.35%;
+    top: 36.3%;
+    bottom: 40.7%;
+    padding: solid aqua;
+    margin-left: 34.12px;
+    background: #b3a9a9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
